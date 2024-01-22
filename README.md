@@ -15,6 +15,9 @@ José Roberto da Silva
 Pode usar o venv para criação de ambientes virtuais, que fará tudo de forma automatica, caso aconteça algum erro, instalar manualmente.
 
 pip install grpcio
+
 pip install grpcio-tools
+
 pip install protobuf
+
 pip install six
