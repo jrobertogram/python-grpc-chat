@@ -16,7 +16,7 @@ class Client:
 
     def __listen_for_messages(self):
         for note in self.conn.ChatStream(chat.Empty()):
-            print("[{}] {}".format(note.name, note.message))
+            print("\n[{}] {}".format(note.name, note.message))
 
     def send_message(self, message):
         if message != '':
@@ -28,7 +28,7 @@ class Client:
     def __start_chat(self):
         print("Conversa iniciada. Digite 'sair' para encerrar a conversa.")
         while True:
-            message = input("Digite sua mensagem: ")
+            message = input("\n Digite sua mensagem: ")
             if message.lower() == 'sair':
                 break
             self.send_message(message)
