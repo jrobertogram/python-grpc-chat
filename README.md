@@ -9,3 +9,12 @@ Implementação um chat usando gRPC, onde as mensagens podem ser enviadas simult
 José Lucas Ferreira dos Santos
 
 José Roberto da Silva 
+
+# Instalar bibliotecas 
+
+Pode usar o venv para criação de ambientes virtuais, que fará tudo de forma automatica, caso aconteça algum erro, instalar manualmente.
+
+pip install grpcio
+pip install grpcio-tools
+pip install protobuf
+pip install six
